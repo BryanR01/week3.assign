@@ -1,0 +1,37 @@
+body{
+	background-color: #d18264;
+
+}
+
+h1{
+	font-family: "Ariel", sans-serif;
+	line-height:1.6;
+}
+
+p{
+
+}
+
+.headerBox{
+	color: white;
+	display: flex;
+	align-items: bsl;
+	gap: 50px;
+	position: fixed;
+	background: #A64D3F;
+	top: 10px;
+	left: 0px;
+}
+
+img{
+	top:0px;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+a{
+	color: white;
+	font-family: "Ariel", sans-serif;
+	line-height:1.6;
+}
