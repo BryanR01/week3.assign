@@ -23,6 +23,11 @@ p{
 	left: 0px;
 }
 
+h1 img{
+	background-color: #A64D3F;
+	padding-left: 10px;
+}
+
 img{
 	top:0px;
 	display: block;
@@ -30,8 +35,20 @@ img{
 	max-width: 100%;
 }
 
-a{
+h1,a{
+	display: flex;
 	color: white;
 	font-family: "Ariel", sans-serif;
 	line-height:1.6;
+	text-decoration: none;
+}
+
+a{
+	padding-top: 20px;
+	padding: 20px;
+	font-size: 24px;
+	color: white;
+	font-family: "Ariel", sans-serif;
+	line-height:1.6;
+	text-decoration: none;
 }
