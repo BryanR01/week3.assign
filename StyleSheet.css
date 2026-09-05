@@ -11,19 +11,29 @@ h1{
 }
 
 p{
+	font-family: "Ariel", sans-serif;
+	line-height:1.6;
+	font-size: 20px;
+}
 
+li{
+	font-family: "Ariel", sans-serif;
+	line-height:1.6;
+	font-size: 20px;
 }
 
 .headerBox{
 	color: white;
 	display: flex;
-	align-items: bsl;
+	align-items: center;
 	gap: 50px;
 	position: fixed;
 	background: #A64D3F;
 	top: 10px;
 	left: 0px;
+	width: 60%;
 }
+
 
 h1 img{
 	background-color: #A64D3F;
@@ -45,6 +55,7 @@ h1,a{
 	text-decoration: none;
 }
 
+
 a{
 	padding-top: 30px;
 	padding: 20px;
@@ -57,7 +68,7 @@ a{
 
 .welcome{
 	padding: 0.5em;
-	display: felx;
+	display: flex;
 	text-align: center;
 }
 
@@ -66,6 +77,7 @@ a{
 	width: 150px;
 	background-color: #A64D3F;
 	height: 10px;
+	
 }
 
 .float1{
@@ -84,6 +96,28 @@ offLeft{
 	background-color: #946354;
 	margin-left: 30px;
 	font-size: 20px;
+}
+
+sub1{
+	display: flex:
+	color: silver;
+	display: flex;
+	background-color: #946354;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+
+}
+
+sub2{
+	display: flex:
+	color: silver;
+	display: flex;
+	background-color: #917C7C;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+
 }
 
 
