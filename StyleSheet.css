@@ -10,6 +10,10 @@ h1{
 	line-height:1.6;
 }
 
+h2{
+	margin-left:10vw;
+}
+
 p{
 	font-family: "Ariel", sans-serif;
 	line-height:1.6;
@@ -31,7 +35,10 @@ li{
 	background: #A64D3F;
 	top: 10px;
 	left: 0px;
-	width: 60%;
+	width: 100%;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-right: 10vw;
 }
 
 
@@ -59,11 +66,12 @@ h1,a{
 a{
 	padding-top: 30px;
 	padding: 20px;
-	font-size: 24px;
+	font-size: clamp(14px, 1.5vw, 25px);
 	color: white;
 	font-family: "Ariel", sans-serif;
 	line-height:1.6;
 	text-decoration: none;
+	display: flex;
 }
 
 .welcome{
@@ -99,26 +107,104 @@ offLeft{
 }
 
 sub1{
-	display: flex:
-	color: silver;
+	display: flex;
 	display: flex;
 	background-color: #946354;
 	align-items: center;
 	padding: 10px;
-	margin: 5px;
+	margin: 0px;
+	border-radius: 15px;
 
 }
 
 sub2{
-	display: flex:
-	color: silver;
+	display: flex;
 	display: flex;
 	background-color: #917C7C;
 	align-items: center;
 	padding: 10px;
-	margin: 5px;
+	margin: 3px;
+	border-radius: 15px;
 
 }
+
+sub3{
+	display: flex;
+	display: flex;
+	background-color: #D9D9D9;
+	align-items: center;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 15px;
+
+}
+
+sub4{
+	display: flex;
+	display: flex;
+	background-color: #C7BBB7;
+	align-items: center;
+	padding: 10px;
+	margin: 3px;
+	border-radius: 15px;
+
+}
+
+sub5{
+	display: flex;
+	background-color: #946354;
+	align-items: left;
+	padding: 10px;
+	margin-top: 3px;
+	border-left: 2px solid black;
+}
+
+sub6{
+	display: flex;
+	background-color: #D9D9D9;
+	align-items: left;
+	padding: 10px;
+	margin-top: 3px;
+	border-left: 2px solid black;
+}
+
+sub3notop{
+	display: flex;
+	display: flex;
+	background-color: #D9D9D9;
+	align-items: center;
+	padding: 11px;
+	margin-bottom: 3px;
+	border-radius: 15px;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+sub4notop{
+	display: flex;
+	display: flex;
+	background-color: #C7BBB7;
+	align-items: center;
+	padding: 11px;
+	margin-bottom: 3px;
+	border-radius: 15px;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+
+sub7{
+	display: flex;
+	background-color: #C7BBB7;
+	align-items: left;
+	padding: 10px;
+	margin-top: 3px;
+	border-left: 2px solid black;
+}
+
+
+
 
 
 
