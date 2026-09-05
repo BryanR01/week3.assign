@@ -1,5 +1,7 @@
 body{
 	background-color: #d18264;
+	font-family: "Ariel", sans-serif;
+	
 
 }
 
@@ -44,7 +46,7 @@ h1,a{
 }
 
 a{
-	padding-top: 20px;
+	padding-top: 30px;
 	padding: 20px;
 	font-size: 24px;
 	color: white;
@@ -52,3 +54,43 @@ a{
 	line-height:1.6;
 	text-decoration: none;
 }
+
+.welcome{
+	padding: 0.5em;
+	display: felx;
+	text-align: center;
+}
+
+.float{
+	margin: 15px;
+	width: 150px;
+	background-color: #A64D3F;
+	height: 10px;
+}
+
+.float1{
+	width: 10%;
+	float: left;
+}
+
+.float2{
+
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
