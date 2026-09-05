@@ -79,7 +79,9 @@ a{
 }
 
 offLeft{
-	display: block;
+	color: silver;
+	display: flex;
+	background-color: #946354;
 	margin-left: 30px;
 	font-size: 20px;
 }
